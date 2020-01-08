@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://projectt2020.github.io/</id>
     <title>T</title>
-    <updated>2020-01-08T03:07:30.581Z</updated>
+    <updated>2020-01-08T04:18:41.993Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://projectt2020.github.io/"/>
     <link rel="self" href="https://projectt2020.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://projectt2020.github.io/images/avatar.png</logo>
     <icon>https://projectt2020.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, T</rights>
+    <entry>
+        <title type="html"><![CDATA[五分钟搭建自己的私人博客]]></title>
+        <id>https://projectt2020.github.io/post/da-jian-zi-ji-de-si-ren-bo-ke</id>
+        <link href="https://projectt2020.github.io/post/da-jian-zi-ji-de-si-ren-bo-ke">
+        </link>
+        <updated>2020-01-08T03:08:46.000Z</updated>
+        <content type="html"><![CDATA[<p>Q：为什么要搭建自己的私人博客？<br>
+A：装13</p>
+<p>Q：搭建自己的私人博客需要多久？<br>
+A：几天吧。不过，然而，如果你有幸看到这篇文章，那简直是分分钟的事情。</p>
+<p>Q：那作为一个傻X要怎么在分分钟之内搭建好这样一个Blog呢？<br>
+A：你知道搭建这样一个博客最最头痛的事情是什么吗？答案是一个响当当的UserName👶和一个不会过两天就忘掉的Password🤡，反正我是纠结了一个<br>
+那说正经事，下面就是老T手把手教你怎么做了：<br>
+准备材料：Github.com账户，git， Gridea。<br>
+Step1：找个便利贴，把你的“Username”跟“Password”写下来，贴到Monitor边上。<br>
+Step2：注册github<br>
+Step3：登录github并新建一个repository，此repository命名为Username.github.io<br>
+1.在GitHub主页右上角点击 ’+‘ 号<img src="https://projectt2020.github.io//post-images/1578454697402.png" alt="" loading="lazy"><br>
+2.以正确格式命名repository<img src="https://projectt2020.github.io//post-images/1578455378692.png" alt="" loading="lazy"><br>
+Step4：新建一个Token，在https://github.com/settings/tokens，<br>
+1. <img src="https://projectt2020.github.io//post-images/1578455707450.jpg" alt="" loading="lazy"><br>
+2. Note随便写，Scopes 只选择 repo<img src="https://projectt2020.github.io//post-images/1578455954602.png" alt="" loading="lazy"><br>
+3. 选择Generate Token，然后把新的Token记（复制）下来<img src="https://projectt2020.github.io//post-images/1578456262100.png" alt="" loading="lazy"><br>
+4. 下载安装打开Gridea，设置远程连接<img src="https://projectt2020.github.io//post-images/1578456600220.png" alt="" loading="lazy"><br>
+5. 然后你可能（很可能）发现远程连接失败，这时候需要安装git，参照https://gridea.dev/docs/faq.html#windows-检测远程失败怎么办<img src="https://projectt2020.github.io//post-images/1578456754324.png" alt="" loading="lazy"><br>
+6. 大功告成！这样别人就可以在Username.github.io访问你的博客了。开始写一篇博文吧。<img src="https://projectt2020.github.io//post-images/1578457087164.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://projectt2020.github.io/post/hello-gridea</id>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>五分钟搭建自己的私人博客 | T</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://projectt2020.github.io//favicon.ico?v=1578457118307">
+<link rel="stylesheet" href="https://projectt2020.github.io//styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="Q：为什么要搭建自己的私人博客？
+A：装13
+Q：搭建自己的私人博客需要多久？
+A：几天吧。不过，然而，如果你有幸看到这篇文章，那简直是分分钟的事情。
+Q：那作为一个傻X要怎么在分分钟之内搭建好这样一个Blog呢？
+A：你知道搭建这样一个博..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://projectt2020.github.io/">
+        <img src="https://projectt2020.github.io//images/avatar.png?v=1578457118307" class="site-logo">
+        <h1 class="site-title">T</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://projectt2020.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">五分钟搭建自己的私人博客</h2>
+            <div class="post-date">2020-01-08</div>
+            
+            <div class="post-content" v-pre>
+              <p>Q：为什么要搭建自己的私人博客？<br>
+A：装13</p>
+<p>Q：搭建自己的私人博客需要多久？<br>
+A：几天吧。不过，然而，如果你有幸看到这篇文章，那简直是分分钟的事情。</p>
+<p>Q：那作为一个傻X要怎么在分分钟之内搭建好这样一个Blog呢？<br>
+A：你知道搭建这样一个博客最最头痛的事情是什么吗？答案是一个响当当的UserName👶和一个不会过两天就忘掉的Password🤡，反正我是纠结了一个<br>
+那说正经事，下面就是老T手把手教你怎么做了：<br>
+准备材料：Github.com账户，git， Gridea。<br>
+Step1：找个便利贴，把你的“Username”跟“Password”写下来，贴到Monitor边上。<br>
+Step2：注册github<br>
+Step3：登录github并新建一个repository，此repository命名为Username.github.io<br>
+1.在GitHub主页右上角点击 ’+‘ 号<img src="https://projectt2020.github.io//post-images/1578454697402.png" alt="" loading="lazy"><br>
+2.以正确格式命名repository<img src="https://projectt2020.github.io//post-images/1578455378692.png" alt="" loading="lazy"><br>
+Step4：新建一个Token，在https://github.com/settings/tokens，<br>
+1. <img src="https://projectt2020.github.io//post-images/1578455707450.jpg" alt="" loading="lazy"><br>
+2. Note随便写，Scopes 只选择 repo<img src="https://projectt2020.github.io//post-images/1578455954602.png" alt="" loading="lazy"><br>
+3. 选择Generate Token，然后把新的Token记（复制）下来<img src="https://projectt2020.github.io//post-images/1578456262100.png" alt="" loading="lazy"><br>
+4. 下载安装打开Gridea，设置远程连接<img src="https://projectt2020.github.io//post-images/1578456600220.png" alt="" loading="lazy"><br>
+5. 然后你可能（很可能）发现远程连接失败，这时候需要安装git，参照https://gridea.dev/docs/faq.html#windows-检测远程失败怎么办<img src="https://projectt2020.github.io//post-images/1578456754324.png" alt="" loading="lazy"><br>
+6. 大功告成！这样别人就可以在Username.github.io访问你的博客了。开始写一篇博文吧。<img src="https://projectt2020.github.io//post-images/1578457087164.png" alt="" loading="lazy"></p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://projectt2020.github.io/post/hello-gridea">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
