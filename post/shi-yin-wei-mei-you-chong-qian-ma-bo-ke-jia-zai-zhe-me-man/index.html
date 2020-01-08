@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | T</title>
+<title>是因为没有充钱吗，博客加载这么慢 | T</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,21 @@
 <link rel="stylesheet" href="https://projectt2020.github.io//styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="温故而知新">
+    <meta name="description" content="还是我上传的图片太大张了
+" />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -88,12 +96,36 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">是因为没有充钱吗，博客加载这么慢</h2>
+            <div class="post-date">2020-01-08</div>
             
-              <a class="tag" href="https://projectt2020.github.io/tag/6jWDeGovf">Gridea</a>
+            <div class="post-content" v-pre>
+              <p>还是我上传的图片太大张了</p>
+
+            </div>
             
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://projectt2020.github.io/post/da-jian-zi-ji-de-si-ren-bo-ke">
+                  <h3 class="post-title">
+                    五分钟搭建自己的私人博客
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
       </div>
     </div>
@@ -113,6 +145,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '73cb882fcac0a06cb6f0',
+        clientSecret: 'ea36f2b16ea325deb0c810aa83ce094c33ea7d67',
+        repo: 'projectt2020.github.io',
+        owner: 'ProjectT2020',
+        admin: ['ProjectT2020'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://projectt2020.github.io/</id>
     <title>T</title>
-    <updated>2020-01-08T06:09:24.324Z</updated>
+    <updated>2020-01-08T06:20:58.120Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://projectt2020.github.io/"/>
     <link rel="self" href="https://projectt2020.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://projectt2020.github.io/images/avatar.png</logo>
     <icon>https://projectt2020.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, T</rights>
+    <entry>
+        <title type="html"><![CDATA[是因为没有充钱吗，博客加载这么慢]]></title>
+        <id>https://projectt2020.github.io/post/shi-yin-wei-mei-you-chong-qian-ma-bo-ke-jia-zai-zhe-me-man</id>
+        <link href="https://projectt2020.github.io/post/shi-yin-wei-mei-you-chong-qian-ma-bo-ke-jia-zai-zhe-me-man">
+        </link>
+        <updated>2020-01-08T06:19:22.000Z</updated>
+        <content type="html"><![CDATA[<p>还是我上传的图片太大张了</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[五分钟搭建自己的私人博客]]></title>
         <id>https://projectt2020.github.io/post/da-jian-zi-ji-de-si-ren-bo-ke</id>
