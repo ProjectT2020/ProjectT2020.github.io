@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://projectt2020.github.io/</id>
     <title>T</title>
-    <updated>2020-01-08T04:29:26.444Z</updated>
+    <updated>2020-01-08T04:43:45.099Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://projectt2020.github.io/"/>
     <link rel="self" href="https://projectt2020.github.io/atom.xml"/>
@@ -36,6 +36,7 @@ Step4：新建一个Token，在https://github.com/settings/tokens，<br>
 4. 下载安装打开Gridea，设置远程连接<img src="https://projectt2020.github.io//post-images/1578456600220.png" alt="" loading="lazy"><br>
 5. 然后你可能（很可能）发现远程连接失败，这时候需要安装git，参照https://gridea.dev/docs/faq.html#windows-检测远程失败怎么办<img src="https://projectt2020.github.io//post-images/1578456754324.png" alt="" loading="lazy"><br>
 6. 大功告成！这样别人就可以在Username.github.io访问你的博客了。开始写一篇博文吧。<br>
+<img src="https://projectt2020.github.io//post-images/1578458619133.png" alt="" loading="lazy"><br>
 <img src="https://projectt2020.github.io//post-images/1578457283497.png" alt="" loading="lazy"></p>
 <p>参考https://sspai.com/post/54212</p>
 ]]></content>
