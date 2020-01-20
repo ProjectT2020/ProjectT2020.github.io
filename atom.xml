@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://projectt2020.github.io/</id>
     <title>T</title>
-    <updated>2020-01-12T15:24:22.383Z</updated>
+    <updated>2020-01-20T04:37:46.825Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://projectt2020.github.io/"/>
     <link rel="self" href="https://projectt2020.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://projectt2020.github.io/images/avatar.png</logo>
     <icon>https://projectt2020.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, T</rights>
+    <entry>
+        <title type="html"><![CDATA[ Trivial Things ]]></title>
+        <id>https://projectt2020.github.io/post/trivial-things</id>
+        <link href="https://projectt2020.github.io/post/trivial-things">
+        </link>
+        <updated>2020-01-20T04:33:07.000Z</updated>
+        <content type="html"><![CDATA[<p>Q：有时候我的Laptop不能进行拖拽<br>
+A：双击ESC</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[结构化查询语言（SQL）]]></title>
         <id>https://projectt2020.github.io/post/jie-gou-hua-cha-xun-yu-yan-sql</id>
