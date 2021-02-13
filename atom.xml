@@ -2,18 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://projectt2020.github.io/</id>
     <title>T</title>
-    <updated>2020-03-03T07:52:53.110Z</updated>
+    <updated>2021-02-13T02:50:00.553Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://projectt2020.github.io/"/>
     <link rel="self" href="https://projectt2020.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://projectt2020.github.io/images/avatar.png</logo>
     <icon>https://projectt2020.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, T</rights>
+    <rights>All rights reserved 2021, T</rights>
     <entry>
         <title type="html"><![CDATA[ Trivial Things ]]></title>
-        <id>https://projectt2020.github.io/post/trivial-things</id>
-        <link href="https://projectt2020.github.io/post/trivial-things">
+        <id>https://projectt2020.github.io/post/trivial-things/</id>
+        <link href="https://projectt2020.github.io/post/trivial-things/">
         </link>
         <updated>2020-01-20T04:33:07.000Z</updated>
         <content type="html"><![CDATA[<p>Q：有时候我的Laptop不能进行拖拽<br>
@@ -22,8 +22,8 @@ A：双击ESC</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[结构化查询语言（SQL）]]></title>
-        <id>https://projectt2020.github.io/post/jie-gou-hua-cha-xun-yu-yan-sql</id>
-        <link href="https://projectt2020.github.io/post/jie-gou-hua-cha-xun-yu-yan-sql">
+        <id>https://projectt2020.github.io/post/jie-gou-hua-cha-xun-yu-yan-sql/</id>
+        <link href="https://projectt2020.github.io/post/jie-gou-hua-cha-xun-yu-yan-sql/">
         </link>
         <updated>2020-01-12T15:15:53.000Z</updated>
         <content type="html"><![CDATA[<p>为关系数据库所设计的数据查询和操作语言。<br>
@@ -35,8 +35,8 @@ WHERE 条件</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[五分钟搭建自己的私人博客]]></title>
-        <id>https://projectt2020.github.io/post/da-jian-zi-ji-de-si-ren-bo-ke</id>
-        <link href="https://projectt2020.github.io/post/da-jian-zi-ji-de-si-ren-bo-ke">
+        <id>https://projectt2020.github.io/post/da-jian-zi-ji-de-si-ren-bo-ke/</id>
+        <link href="https://projectt2020.github.io/post/da-jian-zi-ji-de-si-ren-bo-ke/">
         </link>
         <updated>2020-01-08T03:08:46.000Z</updated>
         <content type="html"><![CDATA[<p>Q：为什么要搭建自己的私人博客？<br>
@@ -66,8 +66,8 @@ Step4：新建一个Token，在https://github.com/settings/tokens，<br>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://projectt2020.github.io/post/hello-gridea</id>
-        <link href="https://projectt2020.github.io/post/hello-gridea">
+        <id>https://projectt2020.github.io/post/hello-gridea/</id>
+        <link href="https://projectt2020.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
